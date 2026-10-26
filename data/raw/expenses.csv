@@ -1,0 +1,603 @@
+expense_id,vendor_name,category,incurred_date,due_date,amount,payment_date,status
+EXP-5001,Metro Industrial Properties,Rent,2024-01-01,2024-01-01,65000.0,2024-01-01,Paid
+EXP-5002,National Raw Materials Corp,COGS_Materials,2024-01-01,2024-01-31,30253.71,2024-01-31,Paid
+EXP-5003,FastTrack Freight & Logistics,Logistics,2024-01-02,2024-01-17,7178.36,2024-01-17,Paid
+EXP-5004,National Raw Materials Corp,COGS_Materials,2024-01-03,2024-02-02,42383.74,2024-02-02,Paid
+EXP-5005,National Raw Materials Corp,COGS_Materials,2024-01-05,2024-02-04,33909.68,2024-02-04,Paid
+EXP-5006,FastTrack Freight & Logistics,Logistics,2024-01-05,2024-01-20,7930.04,2024-01-20,Paid
+EXP-5007,National Raw Materials Corp,COGS_Materials,2024-01-08,2024-02-07,37151.42,2024-02-07,Paid
+EXP-5008,FastTrack Freight & Logistics,Logistics,2024-01-09,2024-01-24,7738.79,2024-01-24,Paid
+EXP-5009,National Raw Materials Corp,COGS_Materials,2024-01-10,2024-02-09,30704.79,2024-02-09,Paid
+EXP-5010,State Power & Municipal Corp,Utilities,2024-01-10,2024-01-10,12264.38,2024-01-10,Paid
+EXP-5011,National Raw Materials Corp,COGS_Materials,2024-01-12,2024-02-11,31641.99,2024-02-11,Paid
+EXP-5012,FastTrack Freight & Logistics,Logistics,2024-01-12,2024-01-27,7462.78,2024-01-27,Paid
+EXP-5013,National Raw Materials Corp,COGS_Materials,2024-01-15,2024-02-14,35638.15,2024-02-14,Paid
+EXP-5014,FastTrack Freight & Logistics,Logistics,2024-01-16,2024-01-31,7551.95,2024-01-31,Paid
+EXP-5015,National Raw Materials Corp,COGS_Materials,2024-01-17,2024-02-16,35663.2,2024-02-16,Paid
+EXP-5016,National Raw Materials Corp,COGS_Materials,2024-01-19,2024-02-18,31596.42,2024-02-18,Paid
+EXP-5017,FastTrack Freight & Logistics,Logistics,2024-01-19,2024-02-03,7578.64,2024-02-03,Paid
+EXP-5018,National Raw Materials Corp,COGS_Materials,2024-01-22,2024-02-21,22009.0,2024-02-21,Paid
+EXP-5019,FastTrack Freight & Logistics,Logistics,2024-01-23,2024-02-07,8416.33,2024-02-07,Paid
+EXP-5020,National Raw Materials Corp,COGS_Materials,2024-01-24,2024-02-23,33732.44,2024-02-23,Paid
+EXP-5021,National Raw Materials Corp,COGS_Materials,2024-01-26,2024-02-25,36990.05,2024-02-25,Paid
+EXP-5022,FastTrack Freight & Logistics,Logistics,2024-01-26,2024-02-10,4603.74,2024-02-10,Paid
+EXP-5023,Staff Payroll Reserve,Payroll,2024-01-28,2024-01-28,188353.5,2024-01-28,Paid
+EXP-5024,National Raw Materials Corp,COGS_Materials,2024-01-29,2024-02-28,31302.05,2024-02-28,Paid
+EXP-5025,FastTrack Freight & Logistics,Logistics,2024-01-30,2024-02-14,8608.18,2024-02-14,Paid
+EXP-5026,National Raw Materials Corp,COGS_Materials,2024-01-31,2024-03-01,26800.47,2024-03-01,Paid
+EXP-5027,Metro Industrial Properties,Rent,2024-02-01,2024-02-01,65000.0,2024-02-01,Paid
+EXP-5028,National Raw Materials Corp,COGS_Materials,2024-02-02,2024-03-03,35063.87,2024-03-03,Paid
+EXP-5029,FastTrack Freight & Logistics,Logistics,2024-02-02,2024-02-17,6446.58,2024-02-17,Paid
+EXP-5030,National Raw Materials Corp,COGS_Materials,2024-02-05,2024-03-06,28881.16,2024-03-06,Paid
+EXP-5031,FastTrack Freight & Logistics,Logistics,2024-02-06,2024-02-21,9414.03,2024-02-21,Paid
+EXP-5032,National Raw Materials Corp,COGS_Materials,2024-02-07,2024-03-08,31046.59,2024-03-08,Paid
+EXP-5033,National Raw Materials Corp,COGS_Materials,2024-02-09,2024-03-10,33087.16,2024-03-10,Paid
+EXP-5034,FastTrack Freight & Logistics,Logistics,2024-02-09,2024-02-24,8370.07,2024-02-24,Paid
+EXP-5035,State Power & Municipal Corp,Utilities,2024-02-10,2024-02-10,13094.82,2024-02-10,Paid
+EXP-5036,National Raw Materials Corp,COGS_Materials,2024-02-12,2024-03-13,32752.09,2024-03-13,Paid
+EXP-5037,FastTrack Freight & Logistics,Logistics,2024-02-13,2024-02-28,7864.96,2024-02-28,Paid
+EXP-5038,National Raw Materials Corp,COGS_Materials,2024-02-14,2024-03-15,44017.08,2024-03-15,Paid
+EXP-5039,National Raw Materials Corp,COGS_Materials,2024-02-16,2024-03-17,31711.91,2024-03-17,Paid
+EXP-5040,FastTrack Freight & Logistics,Logistics,2024-02-16,2024-03-02,7701.1,2024-03-02,Paid
+EXP-5041,National Raw Materials Corp,COGS_Materials,2024-02-19,2024-03-20,37253.27,2024-03-20,Paid
+EXP-5042,FastTrack Freight & Logistics,Logistics,2024-02-20,2024-03-06,8605.53,2024-03-06,Paid
+EXP-5043,National Raw Materials Corp,COGS_Materials,2024-02-21,2024-03-22,37935.15,2024-03-22,Paid
+EXP-5044,National Raw Materials Corp,COGS_Materials,2024-02-23,2024-03-24,35193.65,2024-03-24,Paid
+EXP-5045,FastTrack Freight & Logistics,Logistics,2024-02-23,2024-03-09,6357.0,2024-03-09,Paid
+EXP-5046,National Raw Materials Corp,COGS_Materials,2024-02-26,2024-03-27,40167.16,2024-03-27,Paid
+EXP-5047,FastTrack Freight & Logistics,Logistics,2024-02-27,2024-03-13,6353.65,2024-03-13,Paid
+EXP-5048,Staff Payroll Reserve,Payroll,2024-02-28,2024-02-28,181210.54,2024-02-28,Paid
+EXP-5049,National Raw Materials Corp,COGS_Materials,2024-02-28,2024-03-29,28228.62,2024-03-29,Paid
+EXP-5050,Metro Industrial Properties,Rent,2024-03-01,2024-03-01,65000.0,2024-03-01,Paid
+EXP-5051,National Raw Materials Corp,COGS_Materials,2024-03-01,2024-03-31,31679.31,2024-03-31,Paid
+EXP-5052,FastTrack Freight & Logistics,Logistics,2024-03-01,2024-03-16,7828.76,2024-03-16,Paid
+EXP-5053,National Raw Materials Corp,COGS_Materials,2024-03-04,2024-04-03,33606.79,2024-04-03,Paid
+EXP-5054,FastTrack Freight & Logistics,Logistics,2024-03-05,2024-03-20,7921.92,2024-03-20,Paid
+EXP-5055,National Raw Materials Corp,COGS_Materials,2024-03-06,2024-04-05,40068.56,2024-04-05,Paid
+EXP-5056,National Raw Materials Corp,COGS_Materials,2024-03-08,2024-04-07,34267.67,2024-04-07,Paid
+EXP-5057,FastTrack Freight & Logistics,Logistics,2024-03-08,2024-03-23,7255.84,2024-03-23,Paid
+EXP-5058,State Power & Municipal Corp,Utilities,2024-03-10,2024-03-10,13656.9,2024-03-10,Paid
+EXP-5059,National Raw Materials Corp,COGS_Materials,2024-03-11,2024-04-10,37947.35,2024-04-10,Paid
+EXP-5060,FastTrack Freight & Logistics,Logistics,2024-03-12,2024-03-27,6272.39,2024-03-27,Paid
+EXP-5061,National Raw Materials Corp,COGS_Materials,2024-03-13,2024-04-12,34987.0,2024-04-12,Paid
+EXP-5062,Treasury & Tax Authority,Taxation,2024-03-15,2024-03-15,54103.52,2024-03-15,Paid
+EXP-5063,National Raw Materials Corp,COGS_Materials,2024-03-15,2024-04-14,30512.18,2024-04-14,Paid
+EXP-5064,FastTrack Freight & Logistics,Logistics,2024-03-15,2024-03-30,8875.71,2024-03-30,Paid
+EXP-5065,National Raw Materials Corp,COGS_Materials,2024-03-18,2024-04-17,31249.72,2024-04-17,Paid
+EXP-5066,FastTrack Freight & Logistics,Logistics,2024-03-19,2024-04-03,7625.58,2024-04-03,Paid
+EXP-5067,National Raw Materials Corp,COGS_Materials,2024-03-20,2024-04-19,31134.64,2024-04-19,Paid
+EXP-5068,National Raw Materials Corp,COGS_Materials,2024-03-22,2024-04-21,32077.9,2024-04-21,Paid
+EXP-5069,FastTrack Freight & Logistics,Logistics,2024-03-22,2024-04-06,6403.72,2024-04-06,Paid
+EXP-5070,National Raw Materials Corp,COGS_Materials,2024-03-25,2024-04-24,24799.75,2024-04-24,Paid
+EXP-5071,FastTrack Freight & Logistics,Logistics,2024-03-26,2024-04-10,9094.51,2024-04-10,Paid
+EXP-5072,National Raw Materials Corp,COGS_Materials,2024-03-27,2024-04-26,27765.19,2024-04-26,Paid
+EXP-5073,Staff Payroll Reserve,Payroll,2024-03-28,2024-03-28,176034.43,2024-03-28,Paid
+EXP-5074,National Raw Materials Corp,COGS_Materials,2024-03-29,2024-04-28,21233.05,2024-04-28,Paid
+EXP-5075,FastTrack Freight & Logistics,Logistics,2024-03-29,2024-04-13,6861.04,2024-04-13,Paid
+EXP-5076,Metro Industrial Properties,Rent,2024-04-01,2024-04-01,65000.0,2024-04-01,Paid
+EXP-5077,National Raw Materials Corp,COGS_Materials,2024-04-01,2024-05-01,25384.55,2024-05-01,Paid
+EXP-5078,FastTrack Freight & Logistics,Logistics,2024-04-02,2024-04-17,9142.02,2024-04-17,Paid
+EXP-5079,National Raw Materials Corp,COGS_Materials,2024-04-03,2024-05-03,37049.09,2024-05-03,Paid
+EXP-5080,National Raw Materials Corp,COGS_Materials,2024-04-05,2024-05-05,28559.25,2024-05-05,Paid
+EXP-5081,FastTrack Freight & Logistics,Logistics,2024-04-05,2024-04-20,9752.44,2024-04-20,Paid
+EXP-5082,National Raw Materials Corp,COGS_Materials,2024-04-08,2024-05-08,36908.83,2024-05-08,Paid
+EXP-5083,FastTrack Freight & Logistics,Logistics,2024-04-09,2024-04-24,7175.17,2024-04-24,Paid
+EXP-5084,National Raw Materials Corp,COGS_Materials,2024-04-10,2024-05-10,19502.97,2024-05-10,Paid
+EXP-5085,State Power & Municipal Corp,Utilities,2024-04-10,2024-04-10,15249.13,2024-04-10,Paid
+EXP-5086,National Raw Materials Corp,COGS_Materials,2024-04-12,2024-05-12,25052.14,2024-05-12,Paid
+EXP-5087,FastTrack Freight & Logistics,Logistics,2024-04-12,2024-04-27,5854.6,2024-04-27,Paid
+EXP-5088,National Raw Materials Corp,COGS_Materials,2024-04-15,2024-05-15,37112.85,2024-05-15,Paid
+EXP-5089,FastTrack Freight & Logistics,Logistics,2024-04-16,2024-05-01,9939.75,2024-05-01,Paid
+EXP-5090,National Raw Materials Corp,COGS_Materials,2024-04-17,2024-05-17,38921.36,2024-05-17,Paid
+EXP-5091,National Raw Materials Corp,COGS_Materials,2024-04-19,2024-05-19,34819.55,2024-05-19,Paid
+EXP-5092,FastTrack Freight & Logistics,Logistics,2024-04-19,2024-05-04,8094.75,2024-05-04,Paid
+EXP-5093,National Raw Materials Corp,COGS_Materials,2024-04-22,2024-05-22,36267.08,2024-05-22,Paid
+EXP-5094,FastTrack Freight & Logistics,Logistics,2024-04-23,2024-05-08,8258.93,2024-05-08,Paid
+EXP-5095,National Raw Materials Corp,COGS_Materials,2024-04-24,2024-05-24,33405.96,2024-05-24,Paid
+EXP-5096,National Raw Materials Corp,COGS_Materials,2024-04-26,2024-05-26,32521.01,2024-05-26,Paid
+EXP-5097,FastTrack Freight & Logistics,Logistics,2024-04-26,2024-05-11,7437.41,2024-05-11,Paid
+EXP-5098,Staff Payroll Reserve,Payroll,2024-04-28,2024-04-28,176984.14,2024-04-28,Paid
+EXP-5099,National Raw Materials Corp,COGS_Materials,2024-04-29,2024-05-29,30596.62,2024-05-29,Paid
+EXP-5100,FastTrack Freight & Logistics,Logistics,2024-04-30,2024-05-15,5807.04,2024-05-15,Paid
+EXP-5101,Metro Industrial Properties,Rent,2024-05-01,2024-05-01,65000.0,2024-05-01,Paid
+EXP-5102,National Raw Materials Corp,COGS_Materials,2024-05-01,2024-05-31,31508.3,2024-05-31,Paid
+EXP-5103,National Raw Materials Corp,COGS_Materials,2024-05-03,2024-06-02,27057.04,2024-06-02,Paid
+EXP-5104,FastTrack Freight & Logistics,Logistics,2024-05-03,2024-05-18,6396.41,2024-05-18,Paid
+EXP-5105,National Raw Materials Corp,COGS_Materials,2024-05-06,2024-06-05,32899.47,2024-06-05,Paid
+EXP-5106,FastTrack Freight & Logistics,Logistics,2024-05-07,2024-05-22,8892.0,2024-05-22,Paid
+EXP-5107,National Raw Materials Corp,COGS_Materials,2024-05-08,2024-06-07,36591.58,2024-06-07,Paid
+EXP-5108,National Raw Materials Corp,COGS_Materials,2024-05-10,2024-06-09,24147.5,2024-06-09,Paid
+EXP-5109,FastTrack Freight & Logistics,Logistics,2024-05-10,2024-05-25,6510.37,2024-05-25,Paid
+EXP-5110,State Power & Municipal Corp,Utilities,2024-05-10,2024-05-10,13628.93,2024-05-10,Paid
+EXP-5111,National Raw Materials Corp,COGS_Materials,2024-05-13,2024-06-12,27087.56,2024-06-12,Paid
+EXP-5112,FastTrack Freight & Logistics,Logistics,2024-05-14,2024-05-29,7275.37,2024-05-29,Paid
+EXP-5113,National Raw Materials Corp,COGS_Materials,2024-05-15,2024-06-14,34750.26,2024-06-14,Paid
+EXP-5114,National Raw Materials Corp,COGS_Materials,2024-05-17,2024-06-16,27158.28,2024-06-16,Paid
+EXP-5115,FastTrack Freight & Logistics,Logistics,2024-05-17,2024-06-01,7605.38,2024-06-01,Paid
+EXP-5116,National Raw Materials Corp,COGS_Materials,2024-05-20,2024-06-19,25329.87,2024-06-19,Paid
+EXP-5117,FastTrack Freight & Logistics,Logistics,2024-05-21,2024-06-05,6898.63,2024-06-05,Paid
+EXP-5118,National Raw Materials Corp,COGS_Materials,2024-05-22,2024-06-21,33598.91,2024-06-21,Paid
+EXP-5119,National Raw Materials Corp,COGS_Materials,2024-05-24,2024-06-23,24035.03,2024-06-23,Paid
+EXP-5120,FastTrack Freight & Logistics,Logistics,2024-05-24,2024-06-08,7940.47,2024-06-08,Paid
+EXP-5121,National Raw Materials Corp,COGS_Materials,2024-05-27,2024-06-26,31901.81,2024-06-26,Paid
+EXP-5122,Staff Payroll Reserve,Payroll,2024-05-28,2024-05-28,182209.96,2024-05-28,Paid
+EXP-5123,FastTrack Freight & Logistics,Logistics,2024-05-28,2024-06-12,7723.91,2024-06-12,Paid
+EXP-5124,National Raw Materials Corp,COGS_Materials,2024-05-29,2024-06-28,38820.7,2024-06-28,Paid
+EXP-5125,National Raw Materials Corp,COGS_Materials,2024-05-31,2024-06-30,32626.12,2024-06-30,Paid
+EXP-5126,FastTrack Freight & Logistics,Logistics,2024-05-31,2024-06-15,7070.59,2024-06-15,Paid
+EXP-5127,Metro Industrial Properties,Rent,2024-06-01,2024-06-01,65000.0,2024-06-01,Paid
+EXP-5128,National Raw Materials Corp,COGS_Materials,2024-06-03,2024-07-03,32611.49,2024-07-03,Paid
+EXP-5129,FastTrack Freight & Logistics,Logistics,2024-06-04,2024-06-19,8043.3,2024-06-19,Paid
+EXP-5130,National Raw Materials Corp,COGS_Materials,2024-06-05,2024-07-05,32244.3,2024-07-05,Paid
+EXP-5131,National Raw Materials Corp,COGS_Materials,2024-06-07,2024-07-07,32202.96,2024-07-07,Paid
+EXP-5132,FastTrack Freight & Logistics,Logistics,2024-06-07,2024-06-22,6798.01,2024-06-22,Paid
+EXP-5133,National Raw Materials Corp,COGS_Materials,2024-06-10,2024-07-10,28685.5,2024-07-10,Paid
+EXP-5134,State Power & Municipal Corp,Utilities,2024-06-10,2024-06-10,10816.87,2024-06-10,Paid
+EXP-5135,FastTrack Freight & Logistics,Logistics,2024-06-11,2024-06-26,9249.58,2024-06-26,Paid
+EXP-5136,National Raw Materials Corp,COGS_Materials,2024-06-12,2024-07-12,25780.68,2024-07-12,Paid
+EXP-5137,National Raw Materials Corp,COGS_Materials,2024-06-14,2024-07-14,28535.47,2024-07-14,Paid
+EXP-5138,FastTrack Freight & Logistics,Logistics,2024-06-14,2024-06-29,6781.59,2024-06-29,Paid
+EXP-5139,Treasury & Tax Authority,Taxation,2024-06-15,2024-06-15,54684.77,2024-06-15,Paid
+EXP-5140,National Raw Materials Corp,COGS_Materials,2024-06-17,2024-07-17,30525.25,2024-07-17,Paid
+EXP-5141,FastTrack Freight & Logistics,Logistics,2024-06-18,2024-07-03,8747.74,2024-07-03,Paid
+EXP-5142,National Raw Materials Corp,COGS_Materials,2024-06-19,2024-07-19,28632.55,2024-07-19,Paid
+EXP-5143,National Raw Materials Corp,COGS_Materials,2024-06-21,2024-07-21,33394.97,2024-07-21,Paid
+EXP-5144,FastTrack Freight & Logistics,Logistics,2024-06-21,2024-07-06,6664.65,2024-07-06,Paid
+EXP-5145,National Raw Materials Corp,COGS_Materials,2024-06-24,2024-07-24,42725.75,2024-07-24,Paid
+EXP-5146,FastTrack Freight & Logistics,Logistics,2024-06-25,2024-07-10,6312.4,2024-07-10,Paid
+EXP-5147,National Raw Materials Corp,COGS_Materials,2024-06-26,2024-07-26,33549.1,2024-07-26,Paid
+EXP-5148,Staff Payroll Reserve,Payroll,2024-06-28,2024-06-28,182535.11,2024-06-28,Paid
+EXP-5149,National Raw Materials Corp,COGS_Materials,2024-06-28,2024-07-28,34069.0,2024-07-28,Paid
+EXP-5150,FastTrack Freight & Logistics,Logistics,2024-06-28,2024-07-13,7314.71,2024-07-13,Paid
+EXP-5151,Metro Industrial Properties,Rent,2024-07-01,2024-07-01,65000.0,2024-07-01,Paid
+EXP-5152,National Raw Materials Corp,COGS_Materials,2024-07-01,2024-07-31,31350.9,2024-07-31,Paid
+EXP-5153,FastTrack Freight & Logistics,Logistics,2024-07-02,2024-07-17,7543.81,2024-07-17,Paid
+EXP-5154,National Raw Materials Corp,COGS_Materials,2024-07-03,2024-08-02,31264.99,2024-08-02,Paid
+EXP-5155,National Raw Materials Corp,COGS_Materials,2024-07-05,2024-08-04,36819.4,2024-08-04,Paid
+EXP-5156,FastTrack Freight & Logistics,Logistics,2024-07-05,2024-07-20,9710.52,2024-07-20,Paid
+EXP-5157,National Raw Materials Corp,COGS_Materials,2024-07-08,2024-08-07,29212.54,2024-08-07,Paid
+EXP-5158,FastTrack Freight & Logistics,Logistics,2024-07-09,2024-07-24,6130.2,2024-07-24,Paid
+EXP-5159,National Raw Materials Corp,COGS_Materials,2024-07-10,2024-08-09,31558.59,2024-08-09,Paid
+EXP-5160,State Power & Municipal Corp,Utilities,2024-07-10,2024-07-10,15595.65,2024-07-10,Paid
+EXP-5161,National Raw Materials Corp,COGS_Materials,2024-07-12,2024-08-11,27981.63,2024-08-11,Paid
+EXP-5162,FastTrack Freight & Logistics,Logistics,2024-07-12,2024-07-27,9139.12,2024-07-27,Paid
+EXP-5163,National Raw Materials Corp,COGS_Materials,2024-07-15,2024-08-14,40388.5,2024-08-14,Paid
+EXP-5164,FastTrack Freight & Logistics,Logistics,2024-07-16,2024-07-31,6946.41,2024-07-31,Paid
+EXP-5165,National Raw Materials Corp,COGS_Materials,2024-07-17,2024-08-16,34844.92,2024-08-16,Paid
+EXP-5166,National Raw Materials Corp,COGS_Materials,2024-07-19,2024-08-18,40141.98,2024-08-18,Paid
+EXP-5167,FastTrack Freight & Logistics,Logistics,2024-07-19,2024-08-03,7120.87,2024-08-03,Paid
+EXP-5168,National Raw Materials Corp,COGS_Materials,2024-07-22,2024-08-21,30982.1,2024-08-21,Paid
+EXP-5169,FastTrack Freight & Logistics,Logistics,2024-07-23,2024-08-07,6918.32,2024-08-07,Paid
+EXP-5170,National Raw Materials Corp,COGS_Materials,2024-07-24,2024-08-23,26926.22,2024-08-23,Paid
+EXP-5171,National Raw Materials Corp,COGS_Materials,2024-07-26,2024-08-25,28753.61,2024-08-25,Paid
+EXP-5172,FastTrack Freight & Logistics,Logistics,2024-07-26,2024-08-10,6276.06,2024-08-10,Paid
+EXP-5173,Staff Payroll Reserve,Payroll,2024-07-28,2024-07-28,180136.33,2024-07-28,Paid
+EXP-5174,National Raw Materials Corp,COGS_Materials,2024-07-29,2024-08-28,28150.13,2024-08-28,Paid
+EXP-5175,FastTrack Freight & Logistics,Logistics,2024-07-30,2024-08-14,7733.79,2024-08-14,Paid
+EXP-5176,National Raw Materials Corp,COGS_Materials,2024-07-31,2024-08-30,24220.52,2024-08-30,Paid
+EXP-5177,Metro Industrial Properties,Rent,2024-08-01,2024-08-01,65000.0,2024-08-01,Paid
+EXP-5178,National Raw Materials Corp,COGS_Materials,2024-08-02,2024-09-01,33654.4,2024-09-01,Paid
+EXP-5179,FastTrack Freight & Logistics,Logistics,2024-08-02,2024-08-17,8333.53,2024-08-17,Paid
+EXP-5180,National Raw Materials Corp,COGS_Materials,2024-08-05,2024-09-04,22031.32,2024-09-04,Paid
+EXP-5181,FastTrack Freight & Logistics,Logistics,2024-08-06,2024-08-21,7874.06,2024-08-21,Paid
+EXP-5182,National Raw Materials Corp,COGS_Materials,2024-08-07,2024-09-06,38138.34,2024-09-06,Paid
+EXP-5183,National Raw Materials Corp,COGS_Materials,2024-08-09,2024-09-08,25951.79,2024-09-08,Paid
+EXP-5184,FastTrack Freight & Logistics,Logistics,2024-08-09,2024-08-24,9172.57,2024-08-24,Paid
+EXP-5185,State Power & Municipal Corp,Utilities,2024-08-10,2024-08-10,13002.82,2024-08-10,Paid
+EXP-5186,National Raw Materials Corp,COGS_Materials,2024-08-12,2024-09-11,28474.94,2024-09-11,Paid
+EXP-5187,FastTrack Freight & Logistics,Logistics,2024-08-13,2024-08-28,7444.23,2024-08-28,Paid
+EXP-5188,National Raw Materials Corp,COGS_Materials,2024-08-14,2024-09-13,34791.63,2024-09-13,Paid
+EXP-5189,National Raw Materials Corp,COGS_Materials,2024-08-16,2024-09-15,32380.03,2024-09-15,Paid
+EXP-5190,FastTrack Freight & Logistics,Logistics,2024-08-16,2024-08-31,8038.76,2024-08-31,Paid
+EXP-5191,National Raw Materials Corp,COGS_Materials,2024-08-19,2024-09-18,27396.63,2024-09-18,Paid
+EXP-5192,FastTrack Freight & Logistics,Logistics,2024-08-20,2024-09-04,7669.36,2024-09-04,Paid
+EXP-5193,National Raw Materials Corp,COGS_Materials,2024-08-21,2024-09-20,24931.43,2024-09-20,Paid
+EXP-5194,National Raw Materials Corp,COGS_Materials,2024-08-23,2024-09-22,31443.87,2024-09-22,Paid
+EXP-5195,FastTrack Freight & Logistics,Logistics,2024-08-23,2024-09-07,6596.09,2024-09-07,Paid
+EXP-5196,National Raw Materials Corp,COGS_Materials,2024-08-26,2024-09-25,28322.35,2024-09-25,Paid
+EXP-5197,FastTrack Freight & Logistics,Logistics,2024-08-27,2024-09-11,8736.09,2024-09-11,Paid
+EXP-5198,Staff Payroll Reserve,Payroll,2024-08-28,2024-08-28,184365.24,2024-08-28,Paid
+EXP-5199,National Raw Materials Corp,COGS_Materials,2024-08-28,2024-09-27,35045.69,2024-09-27,Paid
+EXP-5200,National Raw Materials Corp,COGS_Materials,2024-08-30,2024-09-29,26538.44,2024-09-29,Paid
+EXP-5201,FastTrack Freight & Logistics,Logistics,2024-08-30,2024-09-14,7183.59,2024-09-14,Paid
+EXP-5202,Metro Industrial Properties,Rent,2024-09-01,2024-09-01,65000.0,2024-09-01,Paid
+EXP-5203,National Raw Materials Corp,COGS_Materials,2024-09-02,2024-10-02,38065.49,2024-10-02,Paid
+EXP-5204,FastTrack Freight & Logistics,Logistics,2024-09-03,2024-09-18,7641.72,2024-09-18,Paid
+EXP-5205,National Raw Materials Corp,COGS_Materials,2024-09-04,2024-10-04,43596.65,2024-10-04,Paid
+EXP-5206,National Raw Materials Corp,COGS_Materials,2024-09-06,2024-10-06,33966.59,2024-10-06,Paid
+EXP-5207,FastTrack Freight & Logistics,Logistics,2024-09-06,2024-09-21,7692.05,2024-09-21,Paid
+EXP-5208,National Raw Materials Corp,COGS_Materials,2024-09-09,2024-10-09,30454.42,2024-10-09,Paid
+EXP-5209,FastTrack Freight & Logistics,Logistics,2024-09-10,2024-09-25,7633.54,2024-09-25,Paid
+EXP-5210,State Power & Municipal Corp,Utilities,2024-09-10,2024-09-10,12317.04,2024-09-10,Paid
+EXP-5211,National Raw Materials Corp,COGS_Materials,2024-09-11,2024-10-11,35540.54,2024-10-11,Paid
+EXP-5212,National Raw Materials Corp,COGS_Materials,2024-09-13,2024-10-13,36783.51,2024-10-13,Paid
+EXP-5213,FastTrack Freight & Logistics,Logistics,2024-09-13,2024-09-28,6714.01,2024-09-28,Paid
+EXP-5214,Treasury & Tax Authority,Taxation,2024-09-15,2024-09-15,48006.3,2024-09-15,Paid
+EXP-5215,National Raw Materials Corp,COGS_Materials,2024-09-16,2024-10-16,22818.97,2024-10-16,Paid
+EXP-5216,FastTrack Freight & Logistics,Logistics,2024-09-17,2024-10-02,8007.99,2024-10-02,Paid
+EXP-5217,National Raw Materials Corp,COGS_Materials,2024-09-18,2024-10-18,26483.17,2024-10-18,Paid
+EXP-5218,National Raw Materials Corp,COGS_Materials,2024-09-20,2024-10-20,21235.55,2024-10-20,Paid
+EXP-5219,FastTrack Freight & Logistics,Logistics,2024-09-20,2024-10-05,7888.58,2024-10-05,Paid
+EXP-5220,National Raw Materials Corp,COGS_Materials,2024-09-23,2024-10-23,44465.0,2024-10-23,Paid
+EXP-5221,FastTrack Freight & Logistics,Logistics,2024-09-24,2024-10-09,7493.93,2024-10-09,Paid
+EXP-5222,National Raw Materials Corp,COGS_Materials,2024-09-25,2024-10-25,36192.45,2024-10-25,Paid
+EXP-5223,National Raw Materials Corp,COGS_Materials,2024-09-27,2024-10-27,32409.15,2024-10-27,Paid
+EXP-5224,FastTrack Freight & Logistics,Logistics,2024-09-27,2024-10-12,7401.11,2024-10-12,Paid
+EXP-5225,Staff Payroll Reserve,Payroll,2024-09-28,2024-09-28,183676.31,2024-09-28,Paid
+EXP-5226,National Raw Materials Corp,COGS_Materials,2024-09-30,2024-10-30,30548.63,2024-10-30,Paid
+EXP-5227,Metro Industrial Properties,Rent,2024-10-01,2024-10-01,65000.0,2024-10-01,Paid
+EXP-5228,FastTrack Freight & Logistics,Logistics,2024-10-01,2024-10-16,7767.39,2024-10-16,Paid
+EXP-5229,National Raw Materials Corp,COGS_Materials,2024-10-02,2024-11-01,33608.49,2024-11-01,Paid
+EXP-5230,National Raw Materials Corp,COGS_Materials,2024-10-04,2024-11-03,28659.55,2024-11-03,Paid
+EXP-5231,FastTrack Freight & Logistics,Logistics,2024-10-04,2024-10-19,8492.04,2024-10-19,Paid
+EXP-5232,National Raw Materials Corp,COGS_Materials,2024-10-07,2024-11-06,31125.2,2024-11-06,Paid
+EXP-5233,FastTrack Freight & Logistics,Logistics,2024-10-08,2024-10-23,6744.25,2024-10-23,Paid
+EXP-5234,National Raw Materials Corp,COGS_Materials,2024-10-09,2024-11-08,34682.55,2024-11-08,Paid
+EXP-5235,State Power & Municipal Corp,Utilities,2024-10-10,2024-10-10,11421.84,2024-10-10,Paid
+EXP-5236,National Raw Materials Corp,COGS_Materials,2024-10-11,2024-11-10,32140.91,2024-11-10,Paid
+EXP-5237,FastTrack Freight & Logistics,Logistics,2024-10-11,2024-10-26,7490.88,2024-10-26,Paid
+EXP-5238,National Raw Materials Corp,COGS_Materials,2024-10-14,2024-11-13,37429.48,2024-11-13,Paid
+EXP-5239,FastTrack Freight & Logistics,Logistics,2024-10-15,2024-10-30,7974.7,2024-10-30,Paid
+EXP-5240,National Raw Materials Corp,COGS_Materials,2024-10-16,2024-11-15,31874.87,2024-11-15,Paid
+EXP-5241,National Raw Materials Corp,COGS_Materials,2024-10-18,2024-11-17,36088.83,2024-11-17,Paid
+EXP-5242,FastTrack Freight & Logistics,Logistics,2024-10-18,2024-11-02,8890.21,2024-11-02,Paid
+EXP-5243,National Raw Materials Corp,COGS_Materials,2024-10-21,2024-11-20,34789.05,2024-11-20,Paid
+EXP-5244,FastTrack Freight & Logistics,Logistics,2024-10-22,2024-11-06,7510.35,2024-11-06,Paid
+EXP-5245,National Raw Materials Corp,COGS_Materials,2024-10-23,2024-11-22,25440.82,2024-11-22,Paid
+EXP-5246,National Raw Materials Corp,COGS_Materials,2024-10-25,2024-11-24,26674.43,2024-11-24,Paid
+EXP-5247,FastTrack Freight & Logistics,Logistics,2024-10-25,2024-11-09,7194.78,2024-11-09,Paid
+EXP-5248,Staff Payroll Reserve,Payroll,2024-10-28,2024-10-28,177561.95,2024-10-28,Paid
+EXP-5249,National Raw Materials Corp,COGS_Materials,2024-10-28,2024-11-27,31065.14,2024-11-27,Paid
+EXP-5250,FastTrack Freight & Logistics,Logistics,2024-10-29,2024-11-13,7556.65,2024-11-13,Paid
+EXP-5251,National Raw Materials Corp,COGS_Materials,2024-10-30,2024-11-29,34648.46,2024-11-29,Paid
+EXP-5252,Metro Industrial Properties,Rent,2024-11-01,2024-11-01,65000.0,2024-11-01,Paid
+EXP-5253,National Raw Materials Corp,COGS_Materials,2024-11-01,2024-12-01,31647.51,2024-12-01,Paid
+EXP-5254,FastTrack Freight & Logistics,Logistics,2024-11-01,2024-11-16,7986.5,2024-11-16,Paid
+EXP-5255,National Raw Materials Corp,COGS_Materials,2024-11-04,2024-12-04,32322.37,2024-12-04,Paid
+EXP-5256,FastTrack Freight & Logistics,Logistics,2024-11-05,2024-11-20,5524.53,2024-11-20,Paid
+EXP-5257,National Raw Materials Corp,COGS_Materials,2024-11-06,2024-12-06,27303.32,2024-12-06,Paid
+EXP-5258,National Raw Materials Corp,COGS_Materials,2024-11-08,2024-12-08,31279.56,2024-12-08,Paid
+EXP-5259,FastTrack Freight & Logistics,Logistics,2024-11-08,2024-11-23,6290.31,2024-11-23,Paid
+EXP-5260,State Power & Municipal Corp,Utilities,2024-11-10,2024-11-10,13219.91,2024-11-10,Paid
+EXP-5261,National Raw Materials Corp,COGS_Materials,2024-11-11,2024-12-11,39653.75,2024-12-11,Paid
+EXP-5262,FastTrack Freight & Logistics,Logistics,2024-11-12,2024-11-27,8718.76,2024-11-27,Paid
+EXP-5263,National Raw Materials Corp,COGS_Materials,2024-11-13,2024-12-13,30932.79,2024-12-13,Paid
+EXP-5264,National Raw Materials Corp,COGS_Materials,2024-11-15,2024-12-15,39453.63,2024-12-15,Paid
+EXP-5265,FastTrack Freight & Logistics,Logistics,2024-11-15,2024-11-30,7648.67,2024-11-30,Paid
+EXP-5266,National Raw Materials Corp,COGS_Materials,2024-11-18,2024-12-18,30314.57,2024-12-18,Paid
+EXP-5267,FastTrack Freight & Logistics,Logistics,2024-11-19,2024-12-04,6886.6,2024-12-04,Paid
+EXP-5268,National Raw Materials Corp,COGS_Materials,2024-11-20,2024-12-20,30487.65,2024-12-20,Paid
+EXP-5269,National Raw Materials Corp,COGS_Materials,2024-11-22,2024-12-22,30059.12,2024-12-22,Paid
+EXP-5270,FastTrack Freight & Logistics,Logistics,2024-11-22,2024-12-07,7670.42,2024-12-07,Paid
+EXP-5271,National Raw Materials Corp,COGS_Materials,2024-11-25,2024-12-25,32802.87,2024-12-25,Paid
+EXP-5272,FastTrack Freight & Logistics,Logistics,2024-11-26,2024-12-11,7503.05,2024-12-11,Paid
+EXP-5273,National Raw Materials Corp,COGS_Materials,2024-11-27,2024-12-27,34184.69,2024-12-27,Paid
+EXP-5274,Staff Payroll Reserve,Payroll,2024-11-28,2024-11-28,184762.59,2024-11-28,Paid
+EXP-5275,National Raw Materials Corp,COGS_Materials,2024-11-29,2024-12-29,36747.77,2024-12-29,Paid
+EXP-5276,FastTrack Freight & Logistics,Logistics,2024-11-29,2024-12-14,6015.1,2024-12-14,Paid
+EXP-5277,Metro Industrial Properties,Rent,2024-12-01,2024-12-01,65000.0,2024-12-01,Paid
+EXP-5278,National Raw Materials Corp,COGS_Materials,2024-12-02,2025-01-01,19230.39,2025-01-01,Paid
+EXP-5279,FastTrack Freight & Logistics,Logistics,2024-12-03,2024-12-18,8434.32,2024-12-18,Paid
+EXP-5280,National Raw Materials Corp,COGS_Materials,2024-12-04,2025-01-03,25165.61,2025-01-03,Paid
+EXP-5281,National Raw Materials Corp,COGS_Materials,2024-12-06,2025-01-05,30876.17,2025-01-05,Paid
+EXP-5282,FastTrack Freight & Logistics,Logistics,2024-12-06,2024-12-21,6329.89,2024-12-21,Paid
+EXP-5283,National Raw Materials Corp,COGS_Materials,2024-12-09,2025-01-08,22990.1,2025-01-08,Paid
+EXP-5284,FastTrack Freight & Logistics,Logistics,2024-12-10,2024-12-25,8041.46,2024-12-25,Paid
+EXP-5285,State Power & Municipal Corp,Utilities,2024-12-10,2024-12-10,13410.99,2024-12-10,Paid
+EXP-5286,National Raw Materials Corp,COGS_Materials,2024-12-11,2025-01-10,29117.45,2025-01-10,Paid
+EXP-5287,National Raw Materials Corp,COGS_Materials,2024-12-13,2025-01-12,19044.79,2025-01-12,Paid
+EXP-5288,FastTrack Freight & Logistics,Logistics,2024-12-13,2024-12-28,6953.76,2024-12-28,Paid
+EXP-5289,Treasury & Tax Authority,Taxation,2024-12-15,2024-12-15,53175.41,2024-12-15,Paid
+EXP-5290,National Raw Materials Corp,COGS_Materials,2024-12-16,2025-01-15,24605.44,2025-01-15,Paid
+EXP-5291,FastTrack Freight & Logistics,Logistics,2024-12-17,2025-01-01,7683.36,2025-01-01,Paid
+EXP-5292,National Raw Materials Corp,COGS_Materials,2024-12-18,2025-01-17,31923.45,2025-01-17,Paid
+EXP-5293,National Raw Materials Corp,COGS_Materials,2024-12-20,2025-01-19,34896.46,2025-01-19,Paid
+EXP-5294,FastTrack Freight & Logistics,Logistics,2024-12-20,2025-01-04,7619.58,2025-01-04,Paid
+EXP-5295,National Raw Materials Corp,COGS_Materials,2024-12-23,2025-01-22,27134.66,2025-01-22,Paid
+EXP-5296,FastTrack Freight & Logistics,Logistics,2024-12-24,2025-01-08,8696.57,2025-01-08,Paid
+EXP-5297,National Raw Materials Corp,COGS_Materials,2024-12-25,2025-01-24,31207.35,2025-01-24,Paid
+EXP-5298,National Raw Materials Corp,COGS_Materials,2024-12-27,2025-01-26,31863.48,2025-01-26,Paid
+EXP-5299,FastTrack Freight & Logistics,Logistics,2024-12-27,2025-01-11,6566.73,2025-01-11,Paid
+EXP-5300,Staff Payroll Reserve,Payroll,2024-12-28,2024-12-28,178226.87,2024-12-28,Paid
+EXP-5301,National Raw Materials Corp,COGS_Materials,2024-12-30,2025-01-29,27575.99,2025-01-29,Paid
+EXP-5302,FastTrack Freight & Logistics,Logistics,2024-12-31,2025-01-15,7327.05,2025-01-15,Paid
+EXP-5303,Metro Industrial Properties,Rent,2025-01-01,2025-01-01,65000.0,2025-01-01,Paid
+EXP-5304,National Raw Materials Corp,COGS_Materials,2025-01-01,2025-01-31,40558.54,2025-01-31,Paid
+EXP-5305,National Raw Materials Corp,COGS_Materials,2025-01-03,2025-02-02,25140.49,2025-02-02,Paid
+EXP-5306,FastTrack Freight & Logistics,Logistics,2025-01-03,2025-01-18,5886.44,2025-01-18,Paid
+EXP-5307,National Raw Materials Corp,COGS_Materials,2025-01-06,2025-02-05,39355.85,2025-02-05,Paid
+EXP-5308,FastTrack Freight & Logistics,Logistics,2025-01-07,2025-01-22,7290.68,2025-01-22,Paid
+EXP-5309,National Raw Materials Corp,COGS_Materials,2025-01-08,2025-02-07,28654.64,2025-02-07,Paid
+EXP-5310,National Raw Materials Corp,COGS_Materials,2025-01-10,2025-02-09,37199.52,2025-02-09,Paid
+EXP-5311,FastTrack Freight & Logistics,Logistics,2025-01-10,2025-01-25,6894.38,2025-01-25,Paid
+EXP-5312,State Power & Municipal Corp,Utilities,2025-01-10,2025-01-10,14691.21,2025-01-10,Paid
+EXP-5313,National Raw Materials Corp,COGS_Materials,2025-01-13,2025-02-12,35389.63,2025-02-12,Paid
+EXP-5314,FastTrack Freight & Logistics,Logistics,2025-01-14,2025-01-29,7012.09,2025-01-29,Paid
+EXP-5315,National Raw Materials Corp,COGS_Materials,2025-01-15,2025-02-14,42786.54,2025-02-14,Paid
+EXP-5316,National Raw Materials Corp,COGS_Materials,2025-01-17,2025-02-16,28971.43,2025-02-16,Paid
+EXP-5317,FastTrack Freight & Logistics,Logistics,2025-01-17,2025-02-01,8242.1,2025-02-01,Paid
+EXP-5318,National Raw Materials Corp,COGS_Materials,2025-01-20,2025-02-19,33496.46,2025-02-19,Paid
+EXP-5319,FastTrack Freight & Logistics,Logistics,2025-01-21,2025-02-05,8801.74,2025-02-05,Paid
+EXP-5320,National Raw Materials Corp,COGS_Materials,2025-01-22,2025-02-21,39807.56,2025-02-21,Paid
+EXP-5321,National Raw Materials Corp,COGS_Materials,2025-01-24,2025-02-23,32160.02,2025-02-23,Paid
+EXP-5322,FastTrack Freight & Logistics,Logistics,2025-01-24,2025-02-08,6746.58,2025-02-08,Paid
+EXP-5323,National Raw Materials Corp,COGS_Materials,2025-01-27,2025-02-26,34299.86,2025-02-26,Paid
+EXP-5324,Staff Payroll Reserve,Payroll,2025-01-28,2025-01-28,177289.14,2025-01-28,Paid
+EXP-5325,FastTrack Freight & Logistics,Logistics,2025-01-28,2025-02-12,9513.39,2025-02-12,Paid
+EXP-5326,National Raw Materials Corp,COGS_Materials,2025-01-29,2025-02-28,32682.68,2025-02-28,Paid
+EXP-5327,National Raw Materials Corp,COGS_Materials,2025-01-31,2025-03-02,30173.39,2025-03-02,Paid
+EXP-5328,FastTrack Freight & Logistics,Logistics,2025-01-31,2025-02-15,7684.68,2025-02-15,Paid
+EXP-5329,Metro Industrial Properties,Rent,2025-02-01,2025-02-01,65000.0,2025-02-01,Paid
+EXP-5330,National Raw Materials Corp,COGS_Materials,2025-02-03,2025-03-05,25264.37,2025-03-05,Paid
+EXP-5331,FastTrack Freight & Logistics,Logistics,2025-02-04,2025-02-19,6528.39,2025-02-19,Paid
+EXP-5332,National Raw Materials Corp,COGS_Materials,2025-02-05,2025-03-07,38002.07,2025-03-07,Paid
+EXP-5333,National Raw Materials Corp,COGS_Materials,2025-02-07,2025-03-09,28715.53,2025-03-09,Paid
+EXP-5334,FastTrack Freight & Logistics,Logistics,2025-02-07,2025-02-22,6453.09,2025-02-22,Paid
+EXP-5335,National Raw Materials Corp,COGS_Materials,2025-02-10,2025-03-12,34683.26,2025-03-12,Paid
+EXP-5336,State Power & Municipal Corp,Utilities,2025-02-10,2025-02-10,13922.84,2025-02-10,Paid
+EXP-5337,FastTrack Freight & Logistics,Logistics,2025-02-11,2025-02-26,8218.95,2025-02-26,Paid
+EXP-5338,National Raw Materials Corp,COGS_Materials,2025-02-12,2025-03-14,36980.24,2025-03-14,Paid
+EXP-5339,National Raw Materials Corp,COGS_Materials,2025-02-14,2025-03-16,28216.02,2025-03-16,Paid
+EXP-5340,FastTrack Freight & Logistics,Logistics,2025-02-14,2025-03-01,6078.19,2025-03-01,Paid
+EXP-5341,National Raw Materials Corp,COGS_Materials,2025-02-17,2025-03-19,39506.67,2025-03-19,Paid
+EXP-5342,FastTrack Freight & Logistics,Logistics,2025-02-18,2025-03-05,7177.32,2025-03-05,Paid
+EXP-5343,National Raw Materials Corp,COGS_Materials,2025-02-19,2025-03-21,30745.83,2025-03-21,Paid
+EXP-5344,National Raw Materials Corp,COGS_Materials,2025-02-21,2025-03-23,38640.97,2025-03-23,Paid
+EXP-5345,FastTrack Freight & Logistics,Logistics,2025-02-21,2025-03-08,8056.23,2025-03-08,Paid
+EXP-5346,National Raw Materials Corp,COGS_Materials,2025-02-24,2025-03-26,34279.44,2025-03-26,Paid
+EXP-5347,FastTrack Freight & Logistics,Logistics,2025-02-25,2025-03-12,9665.0,2025-03-12,Paid
+EXP-5348,National Raw Materials Corp,COGS_Materials,2025-02-26,2025-03-28,28782.41,2025-03-28,Paid
+EXP-5349,Staff Payroll Reserve,Payroll,2025-02-28,2025-02-28,183711.36,2025-02-28,Paid
+EXP-5350,National Raw Materials Corp,COGS_Materials,2025-02-28,2025-03-30,32285.07,2025-03-30,Paid
+EXP-5351,FastTrack Freight & Logistics,Logistics,2025-02-28,2025-03-15,7768.59,2025-03-15,Paid
+EXP-5352,Metro Industrial Properties,Rent,2025-03-01,2025-03-01,65000.0,2025-03-01,Paid
+EXP-5353,National Raw Materials Corp,COGS_Materials,2025-03-03,2025-04-02,39642.34,2025-04-02,Paid
+EXP-5354,FastTrack Freight & Logistics,Logistics,2025-03-04,2025-03-19,8007.84,2025-03-19,Paid
+EXP-5355,National Raw Materials Corp,COGS_Materials,2025-03-05,2025-04-04,34691.48,2025-04-04,Paid
+EXP-5356,National Raw Materials Corp,COGS_Materials,2025-03-07,2025-04-06,37362.54,2025-04-06,Paid
+EXP-5357,FastTrack Freight & Logistics,Logistics,2025-03-07,2025-03-22,7135.05,2025-03-22,Paid
+EXP-5358,National Raw Materials Corp,COGS_Materials,2025-03-10,2025-04-09,27803.95,2025-04-09,Paid
+EXP-5359,State Power & Municipal Corp,Utilities,2025-03-10,2025-03-10,11246.23,2025-03-10,Paid
+EXP-5360,FastTrack Freight & Logistics,Logistics,2025-03-11,2025-03-26,5533.64,2025-03-26,Paid
+EXP-5361,National Raw Materials Corp,COGS_Materials,2025-03-12,2025-04-11,42281.04,2025-04-11,Paid
+EXP-5362,National Raw Materials Corp,COGS_Materials,2025-03-14,2025-04-13,26483.96,2025-04-13,Paid
+EXP-5363,FastTrack Freight & Logistics,Logistics,2025-03-14,2025-03-29,7278.75,2025-03-29,Paid
+EXP-5364,Treasury & Tax Authority,Taxation,2025-03-15,2025-03-15,51169.56,2025-03-15,Paid
+EXP-5365,National Raw Materials Corp,COGS_Materials,2025-03-17,2025-04-16,33537.03,2025-04-16,Paid
+EXP-5366,FastTrack Freight & Logistics,Logistics,2025-03-18,2025-04-02,8315.74,2025-04-02,Paid
+EXP-5367,National Raw Materials Corp,COGS_Materials,2025-03-19,2025-04-18,36302.37,2025-04-18,Paid
+EXP-5368,National Raw Materials Corp,COGS_Materials,2025-03-21,2025-04-20,29084.61,2025-04-20,Paid
+EXP-5369,FastTrack Freight & Logistics,Logistics,2025-03-21,2025-04-05,7332.88,2025-04-05,Paid
+EXP-5370,National Raw Materials Corp,COGS_Materials,2025-03-24,2025-04-23,33412.9,2025-04-23,Paid
+EXP-5371,FastTrack Freight & Logistics,Logistics,2025-03-25,2025-04-09,7251.31,2025-04-09,Paid
+EXP-5372,National Raw Materials Corp,COGS_Materials,2025-03-26,2025-04-25,40036.73,2025-04-25,Paid
+EXP-5373,Staff Payroll Reserve,Payroll,2025-03-28,2025-03-28,181963.9,2025-03-28,Paid
+EXP-5374,National Raw Materials Corp,COGS_Materials,2025-03-28,2025-04-27,35674.39,2025-04-27,Paid
+EXP-5375,FastTrack Freight & Logistics,Logistics,2025-03-28,2025-04-12,8162.88,2025-04-12,Paid
+EXP-5376,National Raw Materials Corp,COGS_Materials,2025-03-31,2025-04-30,37867.37,2025-04-30,Paid
+EXP-5377,Metro Industrial Properties,Rent,2025-04-01,2025-04-01,65000.0,2025-04-01,Paid
+EXP-5378,FastTrack Freight & Logistics,Logistics,2025-04-01,2025-04-16,7681.02,2025-04-16,Paid
+EXP-5379,National Raw Materials Corp,COGS_Materials,2025-04-02,2025-05-02,25515.84,2025-05-02,Paid
+EXP-5380,National Raw Materials Corp,COGS_Materials,2025-04-04,2025-05-04,33998.44,2025-05-04,Paid
+EXP-5381,FastTrack Freight & Logistics,Logistics,2025-04-04,2025-04-19,6848.64,2025-04-19,Paid
+EXP-5382,National Raw Materials Corp,COGS_Materials,2025-04-07,2025-05-07,29356.92,2025-05-07,Paid
+EXP-5383,FastTrack Freight & Logistics,Logistics,2025-04-08,2025-04-23,8086.36,2025-04-23,Paid
+EXP-5384,National Raw Materials Corp,COGS_Materials,2025-04-09,2025-05-09,38191.42,2025-05-09,Paid
+EXP-5385,State Power & Municipal Corp,Utilities,2025-04-10,2025-04-10,12525.53,2025-04-10,Paid
+EXP-5386,National Raw Materials Corp,COGS_Materials,2025-04-11,2025-05-11,33544.17,2025-05-11,Paid
+EXP-5387,FastTrack Freight & Logistics,Logistics,2025-04-11,2025-04-26,9202.21,2025-04-26,Paid
+EXP-5388,National Raw Materials Corp,COGS_Materials,2025-04-14,2025-05-14,33203.77,2025-05-14,Paid
+EXP-5389,FastTrack Freight & Logistics,Logistics,2025-04-15,2025-04-30,10101.68,2025-04-30,Paid
+EXP-5390,National Raw Materials Corp,COGS_Materials,2025-04-16,2025-05-16,34827.55,2025-05-16,Paid
+EXP-5391,National Raw Materials Corp,COGS_Materials,2025-04-18,2025-05-18,23196.19,2025-05-18,Paid
+EXP-5392,FastTrack Freight & Logistics,Logistics,2025-04-18,2025-05-03,8253.34,2025-05-03,Paid
+EXP-5393,National Raw Materials Corp,COGS_Materials,2025-04-21,2025-05-21,33905.79,2025-05-21,Paid
+EXP-5394,FastTrack Freight & Logistics,Logistics,2025-04-22,2025-05-07,8789.75,2025-05-07,Paid
+EXP-5395,National Raw Materials Corp,COGS_Materials,2025-04-23,2025-05-23,35365.91,2025-05-23,Paid
+EXP-5396,National Raw Materials Corp,COGS_Materials,2025-04-25,2025-05-25,31307.72,2025-05-25,Paid
+EXP-5397,FastTrack Freight & Logistics,Logistics,2025-04-25,2025-05-10,6275.7,2025-05-10,Paid
+EXP-5398,Staff Payroll Reserve,Payroll,2025-04-28,2025-04-28,179163.91,2025-04-28,Paid
+EXP-5399,National Raw Materials Corp,COGS_Materials,2025-04-28,2025-05-28,27747.4,2025-05-28,Paid
+EXP-5400,FastTrack Freight & Logistics,Logistics,2025-04-29,2025-05-14,6919.48,2025-05-14,Paid
+EXP-5401,National Raw Materials Corp,COGS_Materials,2025-04-30,2025-05-30,34942.89,2025-05-30,Paid
+EXP-5402,Metro Industrial Properties,Rent,2025-05-01,2025-05-01,65000.0,2025-05-01,Paid
+EXP-5403,National Raw Materials Corp,COGS_Materials,2025-05-02,2025-06-01,40349.52,2025-06-01,Paid
+EXP-5404,FastTrack Freight & Logistics,Logistics,2025-05-02,2025-05-17,7894.67,2025-05-17,Paid
+EXP-5405,National Raw Materials Corp,COGS_Materials,2025-05-05,2025-06-04,26020.58,2025-06-04,Paid
+EXP-5406,FastTrack Freight & Logistics,Logistics,2025-05-06,2025-05-21,7944.6,2025-05-21,Paid
+EXP-5407,National Raw Materials Corp,COGS_Materials,2025-05-07,2025-06-06,37983.16,2025-06-06,Paid
+EXP-5408,National Raw Materials Corp,COGS_Materials,2025-05-09,2025-06-08,28951.09,2025-06-08,Paid
+EXP-5409,FastTrack Freight & Logistics,Logistics,2025-05-09,2025-05-24,7365.98,2025-05-24,Paid
+EXP-5410,State Power & Municipal Corp,Utilities,2025-05-10,2025-05-10,12517.63,2025-05-10,Paid
+EXP-5411,National Raw Materials Corp,COGS_Materials,2025-05-12,2025-06-11,28075.51,2025-06-11,Paid
+EXP-5412,FastTrack Freight & Logistics,Logistics,2025-05-13,2025-05-28,8148.28,2025-05-28,Paid
+EXP-5413,National Raw Materials Corp,COGS_Materials,2025-05-14,2025-06-13,31395.26,2025-06-13,Paid
+EXP-5414,National Raw Materials Corp,COGS_Materials,2025-05-16,2025-06-15,34097.66,2025-06-15,Paid
+EXP-5415,FastTrack Freight & Logistics,Logistics,2025-05-16,2025-05-31,6612.51,2025-05-31,Paid
+EXP-5416,National Raw Materials Corp,COGS_Materials,2025-05-19,2025-06-18,29812.71,2025-06-18,Paid
+EXP-5417,FastTrack Freight & Logistics,Logistics,2025-05-20,2025-06-04,8222.38,2025-06-04,Paid
+EXP-5418,National Raw Materials Corp,COGS_Materials,2025-05-21,2025-06-20,30135.83,2025-06-20,Paid
+EXP-5419,National Raw Materials Corp,COGS_Materials,2025-05-23,2025-06-22,40634.82,2025-06-22,Paid
+EXP-5420,FastTrack Freight & Logistics,Logistics,2025-05-23,2025-06-07,7100.36,2025-06-07,Paid
+EXP-5421,National Raw Materials Corp,COGS_Materials,2025-05-26,2025-06-25,33123.42,2025-06-25,Paid
+EXP-5422,FastTrack Freight & Logistics,Logistics,2025-05-27,2025-06-11,8432.59,2025-06-11,Paid
+EXP-5423,Staff Payroll Reserve,Payroll,2025-05-28,2025-05-28,174326.54,2025-05-28,Paid
+EXP-5424,National Raw Materials Corp,COGS_Materials,2025-05-28,2025-06-27,23195.96,2025-06-27,Paid
+EXP-5425,National Raw Materials Corp,COGS_Materials,2025-05-30,2025-06-29,24371.72,2025-06-29,Paid
+EXP-5426,FastTrack Freight & Logistics,Logistics,2025-05-30,2025-06-14,8762.58,2025-06-14,Paid
+EXP-5427,Metro Industrial Properties,Rent,2025-06-01,2025-06-01,65000.0,2025-06-01,Paid
+EXP-5428,National Raw Materials Corp,COGS_Materials,2025-06-02,2025-07-02,29240.71,2025-07-02,Paid
+EXP-5429,FastTrack Freight & Logistics,Logistics,2025-06-03,2025-06-18,10058.2,2025-06-18,Paid
+EXP-5430,National Raw Materials Corp,COGS_Materials,2025-06-04,2025-07-04,29178.76,2025-07-04,Paid
+EXP-5431,National Raw Materials Corp,COGS_Materials,2025-06-06,2025-07-06,32922.76,2025-07-06,Paid
+EXP-5432,FastTrack Freight & Logistics,Logistics,2025-06-06,2025-06-21,9042.11,2025-06-21,Paid
+EXP-5433,National Raw Materials Corp,COGS_Materials,2025-06-09,2025-07-09,42030.46,2025-07-09,Paid
+EXP-5434,FastTrack Freight & Logistics,Logistics,2025-06-10,2025-06-25,9561.5,2025-06-25,Paid
+EXP-5435,State Power & Municipal Corp,Utilities,2025-06-10,2025-06-10,13950.04,2025-06-10,Paid
+EXP-5436,National Raw Materials Corp,COGS_Materials,2025-06-11,2025-07-11,37120.31,2025-07-11,Paid
+EXP-5437,National Raw Materials Corp,COGS_Materials,2025-06-13,2025-07-13,34962.63,2025-07-13,Paid
+EXP-5438,FastTrack Freight & Logistics,Logistics,2025-06-13,2025-06-28,8278.36,2025-06-28,Paid
+EXP-5439,Treasury & Tax Authority,Taxation,2025-06-15,2025-06-15,50346.44,2025-06-15,Paid
+EXP-5440,National Raw Materials Corp,COGS_Materials,2025-06-16,2025-07-16,27909.01,2025-07-16,Paid
+EXP-5441,FastTrack Freight & Logistics,Logistics,2025-06-17,2025-07-02,7496.63,2025-07-02,Paid
+EXP-5442,National Raw Materials Corp,COGS_Materials,2025-06-18,2025-07-18,31149.08,2025-07-18,Paid
+EXP-5443,National Raw Materials Corp,COGS_Materials,2025-06-20,2025-07-20,29733.86,2025-07-20,Paid
+EXP-5444,FastTrack Freight & Logistics,Logistics,2025-06-20,2025-07-05,8196.39,2025-07-05,Paid
+EXP-5445,National Raw Materials Corp,COGS_Materials,2025-06-23,2025-07-23,36776.53,2025-07-23,Paid
+EXP-5446,FastTrack Freight & Logistics,Logistics,2025-06-24,2025-07-09,7588.41,2025-07-09,Paid
+EXP-5447,National Raw Materials Corp,COGS_Materials,2025-06-25,2025-07-25,39387.65,2025-07-25,Paid
+EXP-5448,National Raw Materials Corp,COGS_Materials,2025-06-27,2025-07-27,26291.55,2025-07-27,Paid
+EXP-5449,FastTrack Freight & Logistics,Logistics,2025-06-27,2025-07-12,7306.34,2025-07-12,Paid
+EXP-5450,Staff Payroll Reserve,Payroll,2025-06-28,2025-06-28,177132.71,2025-06-28,Paid
+EXP-5451,National Raw Materials Corp,COGS_Materials,2025-06-30,2025-07-30,22667.32,2025-07-30,Paid
+EXP-5452,Metro Industrial Properties,Rent,2025-07-01,2025-07-01,65000.0,2025-07-01,Paid
+EXP-5453,FastTrack Freight & Logistics,Logistics,2025-07-01,2025-07-16,7417.32,2025-07-16,Paid
+EXP-5454,National Raw Materials Corp,COGS_Materials,2025-07-02,2025-08-01,31391.26,2025-08-01,Paid
+EXP-5455,National Raw Materials Corp,COGS_Materials,2025-07-04,2025-08-03,39567.25,2025-08-03,Paid
+EXP-5456,FastTrack Freight & Logistics,Logistics,2025-07-04,2025-07-19,8130.81,2025-07-19,Paid
+EXP-5457,National Raw Materials Corp,COGS_Materials,2025-07-07,2025-08-06,26879.07,2025-08-06,Paid
+EXP-5458,FastTrack Freight & Logistics,Logistics,2025-07-08,2025-07-23,9354.09,2025-07-23,Paid
+EXP-5459,National Raw Materials Corp,COGS_Materials,2025-07-09,2025-08-08,38105.17,2025-08-08,Paid
+EXP-5460,State Power & Municipal Corp,Utilities,2025-07-10,2025-07-10,13198.52,2025-07-10,Paid
+EXP-5461,National Raw Materials Corp,COGS_Materials,2025-07-11,2025-08-10,30867.58,2025-08-10,Paid
+EXP-5462,FastTrack Freight & Logistics,Logistics,2025-07-11,2025-07-26,6540.56,2025-07-26,Paid
+EXP-5463,National Raw Materials Corp,COGS_Materials,2025-07-14,2025-08-13,30138.97,2025-08-13,Paid
+EXP-5464,FastTrack Freight & Logistics,Logistics,2025-07-15,2025-07-30,8588.75,2025-07-30,Paid
+EXP-5465,National Raw Materials Corp,COGS_Materials,2025-07-16,2025-08-15,41422.93,2025-08-15,Paid
+EXP-5466,National Raw Materials Corp,COGS_Materials,2025-07-18,2025-08-17,39716.22,2025-08-17,Paid
+EXP-5467,FastTrack Freight & Logistics,Logistics,2025-07-18,2025-08-02,7011.15,2025-08-02,Paid
+EXP-5468,National Raw Materials Corp,COGS_Materials,2025-07-21,2025-08-20,26401.91,2025-08-20,Paid
+EXP-5469,FastTrack Freight & Logistics,Logistics,2025-07-22,2025-08-06,7640.89,2025-08-06,Paid
+EXP-5470,National Raw Materials Corp,COGS_Materials,2025-07-23,2025-08-22,23157.8,2025-08-22,Paid
+EXP-5471,National Raw Materials Corp,COGS_Materials,2025-07-25,2025-08-24,33615.84,2025-08-24,Paid
+EXP-5472,FastTrack Freight & Logistics,Logistics,2025-07-25,2025-08-09,7352.4,2025-08-09,Paid
+EXP-5473,Staff Payroll Reserve,Payroll,2025-07-28,2025-07-28,178135.85,2025-07-28,Paid
+EXP-5474,National Raw Materials Corp,COGS_Materials,2025-07-28,2025-08-27,24026.48,2025-08-27,Paid
+EXP-5475,FastTrack Freight & Logistics,Logistics,2025-07-29,2025-08-13,8013.6,2025-08-13,Paid
+EXP-5476,National Raw Materials Corp,COGS_Materials,2025-07-30,2025-08-29,29336.5,2025-08-29,Paid
+EXP-5477,Metro Industrial Properties,Rent,2025-08-01,2025-08-01,65000.0,2025-08-01,Paid
+EXP-5478,National Raw Materials Corp,COGS_Materials,2025-08-01,2025-08-31,26150.42,2025-08-31,Paid
+EXP-5479,FastTrack Freight & Logistics,Logistics,2025-08-01,2025-08-16,4627.74,2025-08-16,Paid
+EXP-5480,National Raw Materials Corp,COGS_Materials,2025-08-04,2025-09-03,31862.43,2025-09-03,Paid
+EXP-5481,FastTrack Freight & Logistics,Logistics,2025-08-05,2025-08-20,9272.25,2025-08-20,Paid
+EXP-5482,National Raw Materials Corp,COGS_Materials,2025-08-06,2025-09-05,40306.3,2025-09-05,Paid
+EXP-5483,National Raw Materials Corp,COGS_Materials,2025-08-08,2025-09-07,29714.52,2025-09-07,Paid
+EXP-5484,FastTrack Freight & Logistics,Logistics,2025-08-08,2025-08-23,6897.79,2025-08-23,Paid
+EXP-5485,State Power & Municipal Corp,Utilities,2025-08-10,2025-08-10,13062.53,2025-08-10,Paid
+EXP-5486,National Raw Materials Corp,COGS_Materials,2025-08-11,2025-09-10,27008.07,2025-09-10,Paid
+EXP-5487,FastTrack Freight & Logistics,Logistics,2025-08-12,2025-08-27,7801.79,2025-08-27,Paid
+EXP-5488,National Raw Materials Corp,COGS_Materials,2025-08-13,2025-09-12,35830.4,2025-09-12,Paid
+EXP-5489,National Raw Materials Corp,COGS_Materials,2025-08-15,2025-09-14,38134.67,2025-09-14,Paid
+EXP-5490,FastTrack Freight & Logistics,Logistics,2025-08-15,2025-08-30,7399.85,2025-08-30,Paid
+EXP-5491,National Raw Materials Corp,COGS_Materials,2025-08-18,2025-09-17,30981.63,2025-09-17,Paid
+EXP-5492,FastTrack Freight & Logistics,Logistics,2025-08-19,2025-09-03,6622.02,2025-09-03,Paid
+EXP-5493,National Raw Materials Corp,COGS_Materials,2025-08-20,2025-09-19,27865.6,2025-09-19,Paid
+EXP-5494,National Raw Materials Corp,COGS_Materials,2025-08-22,2025-09-21,30867.61,2025-09-21,Paid
+EXP-5495,FastTrack Freight & Logistics,Logistics,2025-08-22,2025-09-06,7867.37,2025-09-06,Paid
+EXP-5496,National Raw Materials Corp,COGS_Materials,2025-08-25,2025-09-24,36567.92,2025-09-24,Paid
+EXP-5497,FastTrack Freight & Logistics,Logistics,2025-08-26,2025-09-10,6696.82,2025-09-10,Paid
+EXP-5498,National Raw Materials Corp,COGS_Materials,2025-08-27,2025-09-26,39463.44,2025-09-26,Paid
+EXP-5499,Staff Payroll Reserve,Payroll,2025-08-28,2025-08-28,178915.51,2025-08-28,Paid
+EXP-5500,National Raw Materials Corp,COGS_Materials,2025-08-29,2025-09-28,31893.16,2025-09-28,Paid
+EXP-5501,FastTrack Freight & Logistics,Logistics,2025-08-29,2025-09-13,6752.79,2025-09-13,Paid
+EXP-5502,Metro Industrial Properties,Rent,2025-09-01,2025-09-01,65000.0,2025-09-01,Paid
+EXP-5503,National Raw Materials Corp,COGS_Materials,2025-09-01,2025-10-01,19878.8,2025-10-01,Paid
+EXP-5504,FastTrack Freight & Logistics,Logistics,2025-09-02,2025-09-17,8384.05,2025-09-17,Paid
+EXP-5505,National Raw Materials Corp,COGS_Materials,2025-09-03,2025-10-03,35684.22,2025-10-03,Paid
+EXP-5506,National Raw Materials Corp,COGS_Materials,2025-09-05,2025-10-05,30593.36,2025-10-05,Paid
+EXP-5507,FastTrack Freight & Logistics,Logistics,2025-09-05,2025-09-20,7566.99,2025-09-20,Paid
+EXP-5508,National Raw Materials Corp,COGS_Materials,2025-09-08,2025-10-08,34579.7,2025-10-08,Paid
+EXP-5509,FastTrack Freight & Logistics,Logistics,2025-09-09,2025-09-24,5937.45,2025-09-24,Paid
+EXP-5510,National Raw Materials Corp,COGS_Materials,2025-09-10,2025-10-10,29354.74,2025-10-10,Paid
+EXP-5511,State Power & Municipal Corp,Utilities,2025-09-10,2025-09-10,13453.12,2025-09-10,Paid
+EXP-5512,National Raw Materials Corp,COGS_Materials,2025-09-12,2025-10-12,25728.55,2025-10-12,Paid
+EXP-5513,FastTrack Freight & Logistics,Logistics,2025-09-12,2025-09-27,7793.56,2025-09-27,Paid
+EXP-5514,Treasury & Tax Authority,Taxation,2025-09-15,2025-09-15,47930.25,2025-09-15,Paid
+EXP-5515,National Raw Materials Corp,COGS_Materials,2025-09-15,2025-10-15,34332.15,2025-10-15,Paid
+EXP-5516,FastTrack Freight & Logistics,Logistics,2025-09-16,2025-10-01,7464.36,2025-10-01,Paid
+EXP-5517,National Raw Materials Corp,COGS_Materials,2025-09-17,2025-10-17,23924.34,2025-10-17,Paid
+EXP-5518,National Raw Materials Corp,COGS_Materials,2025-09-19,2025-10-19,37823.7,2025-10-19,Paid
+EXP-5519,FastTrack Freight & Logistics,Logistics,2025-09-19,2025-10-04,6765.41,2025-10-04,Paid
+EXP-5520,National Raw Materials Corp,COGS_Materials,2025-09-22,2025-10-22,27948.74,2025-10-22,Paid
+EXP-5521,FastTrack Freight & Logistics,Logistics,2025-09-23,2025-10-08,7700.57,2025-10-08,Paid
+EXP-5522,National Raw Materials Corp,COGS_Materials,2025-09-24,2025-10-24,37743.19,2025-10-24,Paid
+EXP-5523,National Raw Materials Corp,COGS_Materials,2025-09-26,2025-10-26,26920.89,2025-10-26,Paid
+EXP-5524,FastTrack Freight & Logistics,Logistics,2025-09-26,2025-10-11,7561.68,2025-10-11,Paid
+EXP-5525,Staff Payroll Reserve,Payroll,2025-09-28,2025-09-28,181715.27,2025-09-28,Paid
+EXP-5526,National Raw Materials Corp,COGS_Materials,2025-09-29,2025-10-29,35465.53,2025-10-29,Paid
+EXP-5527,FastTrack Freight & Logistics,Logistics,2025-09-30,2025-10-15,7676.44,2025-10-15,Paid
+EXP-5528,Metro Industrial Properties,Rent,2025-10-01,2025-10-01,65000.0,2025-10-01,Paid
+EXP-5529,National Raw Materials Corp,COGS_Materials,2025-10-01,2025-10-31,30164.86,2025-10-31,Paid
+EXP-5530,National Raw Materials Corp,COGS_Materials,2025-10-03,2025-11-02,27862.05,2025-11-02,Paid
+EXP-5531,FastTrack Freight & Logistics,Logistics,2025-10-03,2025-10-18,7586.14,2025-10-18,Paid
+EXP-5532,National Raw Materials Corp,COGS_Materials,2025-10-06,2025-11-05,26639.3,2025-11-05,Paid
+EXP-5533,FastTrack Freight & Logistics,Logistics,2025-10-07,2025-10-22,4578.65,2025-10-22,Paid
+EXP-5534,National Raw Materials Corp,COGS_Materials,2025-10-08,2025-11-07,34182.8,2025-11-07,Paid
+EXP-5535,National Raw Materials Corp,COGS_Materials,2025-10-10,2025-11-09,36519.67,2025-11-09,Paid
+EXP-5536,FastTrack Freight & Logistics,Logistics,2025-10-10,2025-10-25,5137.07,2025-10-25,Paid
+EXP-5537,State Power & Municipal Corp,Utilities,2025-10-10,2025-10-10,11288.32,2025-10-10,Paid
+EXP-5538,National Raw Materials Corp,COGS_Materials,2025-10-13,2025-11-12,35095.77,2025-11-12,Paid
+EXP-5539,FastTrack Freight & Logistics,Logistics,2025-10-14,2025-10-29,9557.5,2025-10-29,Paid
+EXP-5540,National Raw Materials Corp,COGS_Materials,2025-10-15,2025-11-14,32103.97,2025-11-14,Paid
+EXP-5541,National Raw Materials Corp,COGS_Materials,2025-10-17,2025-11-16,28359.99,2025-11-16,Paid
+EXP-5542,FastTrack Freight & Logistics,Logistics,2025-10-17,2025-11-01,7317.1,2025-11-01,Paid
+EXP-5543,National Raw Materials Corp,COGS_Materials,2025-10-20,2025-11-19,38874.38,2025-11-19,Paid
+EXP-5544,FastTrack Freight & Logistics,Logistics,2025-10-21,2025-11-05,6854.04,2025-11-05,Paid
+EXP-5545,National Raw Materials Corp,COGS_Materials,2025-10-22,2025-11-21,28004.04,2025-11-21,Paid
+EXP-5546,National Raw Materials Corp,COGS_Materials,2025-10-24,2025-11-23,29586.28,2025-11-23,Paid
+EXP-5547,FastTrack Freight & Logistics,Logistics,2025-10-24,2025-11-08,6546.67,2025-11-08,Paid
+EXP-5548,National Raw Materials Corp,COGS_Materials,2025-10-27,2025-11-26,32613.35,2025-11-26,Paid
+EXP-5549,Staff Payroll Reserve,Payroll,2025-10-28,2025-10-28,186498.71,2025-10-28,Paid
+EXP-5550,FastTrack Freight & Logistics,Logistics,2025-10-28,2025-11-12,7823.08,2025-11-12,Paid
+EXP-5551,National Raw Materials Corp,COGS_Materials,2025-10-29,2025-11-28,30738.23,2025-11-28,Paid
+EXP-5552,National Raw Materials Corp,COGS_Materials,2025-10-31,2025-11-30,30540.94,2025-11-30,Paid
+EXP-5553,FastTrack Freight & Logistics,Logistics,2025-10-31,2025-11-15,5936.81,2025-11-15,Paid
+EXP-5554,Metro Industrial Properties,Rent,2025-11-01,2025-11-01,65000.0,2025-11-01,Paid
+EXP-5555,National Raw Materials Corp,COGS_Materials,2025-11-03,2025-12-03,36415.55,2025-12-03,Paid
+EXP-5556,FastTrack Freight & Logistics,Logistics,2025-11-04,2025-11-19,7422.16,2025-11-19,Paid
+EXP-5557,National Raw Materials Corp,COGS_Materials,2025-11-05,2025-12-05,31097.6,2025-12-05,Paid
+EXP-5558,National Raw Materials Corp,COGS_Materials,2025-11-07,2025-12-07,47965.54,2025-12-07,Paid
+EXP-5559,FastTrack Freight & Logistics,Logistics,2025-11-07,2025-11-22,7798.75,2025-11-22,Paid
+EXP-5560,National Raw Materials Corp,COGS_Materials,2025-11-10,2025-12-10,28241.04,2025-12-10,Paid
+EXP-5561,State Power & Municipal Corp,Utilities,2025-11-10,2025-11-10,11988.37,2025-11-10,Paid
+EXP-5562,FastTrack Freight & Logistics,Logistics,2025-11-11,2025-11-26,8648.45,2025-11-26,Paid
+EXP-5563,National Raw Materials Corp,COGS_Materials,2025-11-12,2025-12-12,32566.35,2025-12-12,Paid
+EXP-5564,National Raw Materials Corp,COGS_Materials,2025-11-14,2025-12-14,24808.61,2025-12-14,Paid
+EXP-5565,FastTrack Freight & Logistics,Logistics,2025-11-14,2025-11-29,8419.23,2025-11-29,Paid
+EXP-5566,National Raw Materials Corp,COGS_Materials,2025-11-17,2025-12-17,28659.28,2025-12-17,Paid
+EXP-5567,FastTrack Freight & Logistics,Logistics,2025-11-18,2025-12-03,9373.3,2025-12-03,Paid
+EXP-5568,National Raw Materials Corp,COGS_Materials,2025-11-19,2025-12-19,37400.24,2025-12-19,Paid
+EXP-5569,National Raw Materials Corp,COGS_Materials,2025-11-21,2025-12-21,29763.39,2025-12-21,Paid
+EXP-5570,FastTrack Freight & Logistics,Logistics,2025-11-21,2025-12-06,8781.02,2025-12-06,Paid
+EXP-5571,National Raw Materials Corp,COGS_Materials,2025-11-24,2025-12-24,32339.28,2025-12-24,Paid
+EXP-5572,FastTrack Freight & Logistics,Logistics,2025-11-25,2025-12-10,8352.77,2025-12-10,Paid
+EXP-5573,National Raw Materials Corp,COGS_Materials,2025-11-26,2025-12-26,34423.66,2025-12-26,Paid
+EXP-5574,Staff Payroll Reserve,Payroll,2025-11-28,2025-11-28,176614.57,2025-11-28,Paid
+EXP-5575,National Raw Materials Corp,COGS_Materials,2025-11-28,2025-12-28,28782.25,2025-12-28,Paid
+EXP-5576,FastTrack Freight & Logistics,Logistics,2025-11-28,2025-12-13,8529.96,2025-12-13,Paid
+EXP-5577,Metro Industrial Properties,Rent,2025-12-01,2025-12-01,65000.0,2025-12-01,Paid
+EXP-5578,National Raw Materials Corp,COGS_Materials,2025-12-01,2025-12-31,30326.12,,Pending
+EXP-5579,FastTrack Freight & Logistics,Logistics,2025-12-02,2025-12-17,7096.35,2025-12-17,Paid
+EXP-5580,National Raw Materials Corp,COGS_Materials,2025-12-03,2026-01-02,27224.39,,Pending
+EXP-5581,National Raw Materials Corp,COGS_Materials,2025-12-05,2026-01-04,34118.0,,Pending
+EXP-5582,FastTrack Freight & Logistics,Logistics,2025-12-05,2025-12-20,9562.52,2025-12-20,Paid
+EXP-5583,National Raw Materials Corp,COGS_Materials,2025-12-08,2026-01-07,26662.34,,Pending
+EXP-5584,FastTrack Freight & Logistics,Logistics,2025-12-09,2025-12-24,7524.22,2025-12-24,Paid
+EXP-5585,National Raw Materials Corp,COGS_Materials,2025-12-10,2026-01-09,39061.1,,Pending
+EXP-5586,State Power & Municipal Corp,Utilities,2025-12-10,2025-12-10,12404.43,2025-12-10,Paid
+EXP-5587,National Raw Materials Corp,COGS_Materials,2025-12-12,2026-01-11,34261.86,,Pending
+EXP-5588,FastTrack Freight & Logistics,Logistics,2025-12-12,2025-12-27,6437.61,2025-12-27,Paid
+EXP-5589,Treasury & Tax Authority,Taxation,2025-12-15,2025-12-15,53284.92,2025-12-15,Paid
+EXP-5590,National Raw Materials Corp,COGS_Materials,2025-12-15,2026-01-14,31064.28,,Pending
+EXP-5591,FastTrack Freight & Logistics,Logistics,2025-12-16,2025-12-31,8485.73,,Pending
+EXP-5592,National Raw Materials Corp,COGS_Materials,2025-12-17,2026-01-16,37936.93,,Pending
+EXP-5593,National Raw Materials Corp,COGS_Materials,2025-12-19,2026-01-18,44947.82,,Pending
+EXP-5594,FastTrack Freight & Logistics,Logistics,2025-12-19,2026-01-03,8079.63,,Pending
+EXP-5595,National Raw Materials Corp,COGS_Materials,2025-12-22,2026-01-21,33628.98,,Pending
+EXP-5596,FastTrack Freight & Logistics,Logistics,2025-12-23,2026-01-07,7694.38,,Pending
+EXP-5597,National Raw Materials Corp,COGS_Materials,2025-12-24,2026-01-23,30234.17,,Pending
+EXP-5598,National Raw Materials Corp,COGS_Materials,2025-12-26,2026-01-25,33692.42,,Pending
+EXP-5599,FastTrack Freight & Logistics,Logistics,2025-12-26,2026-01-10,7204.6,,Pending
+EXP-5600,Staff Payroll Reserve,Payroll,2025-12-28,2025-12-28,180673.84,2025-12-28,Paid
+EXP-5601,National Raw Materials Corp,COGS_Materials,2025-12-29,2026-01-28,38587.99,,Pending
+EXP-5602,FastTrack Freight & Logistics,Logistics,2025-12-30,2026-01-14,6493.46,,Pending
