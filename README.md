@@ -130,8 +130,8 @@ flowguard/
 ### 1. Clone & Set Up Environment
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/flowguard.git
-cd flowguard
+git clone https://github.com/raunakrajput-04/flowguard-sme-cashflow.git
+cd flowguard-sme-cashflow
 
 # Create and activate virtual environment (optional but recommended)
 python -m venv venv
