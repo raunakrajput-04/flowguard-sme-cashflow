@@ -108,7 +108,7 @@ def create_flowguard_deck(output_path="FlowGuard_Presentation.pptx"):
     p_sub.space_after = Pt(28)
 
     p_meta = tf1.add_paragraph()
-    p_meta.text = "Presented by: Raunak Rajput | AIML Department"
+    p_meta.text = "Presented by: Raunak Rajput, Ayush Vishwakarma, Vipul Bhamare | AIML Department"
     p_meta.font.size = Pt(14)
     p_meta.font.bold = True
     p_meta.font.color.rgb = WHITE
