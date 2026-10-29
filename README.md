@@ -157,26 +157,30 @@ Open your browser at `http://localhost:8501` to view the application.
 
 ---
 
-## 🖥️ Dashboard Walkthrough
+## 🖥️ Dashboard Walkthrough (Executive Dark Mode)
 
-The web application is partitioned into 5 functional modules:
+The web application is partitioned into 5 functional modules featuring a high-contrast Bloomberg/TradingView-style terminal:
 
-1. **Executive KPI Dashboard:**
-   - Displays real-time Current Cash Balance, Working Capital, Cash Conversion Cycle, and Runway.
-   - Monthly historical Inflow vs Outflow cash flow waterfall.
-2. **AI Cash Flow Forecasting:**
+1. **Executive Cockpit & Liquidity Health Score:**
+   - Real-time gauge meter (0–100) assessing runway, solvency, working capital cycle, and liquidity buffer.
+   - Core metric cards for Current Cash Reserve, Net Working Capital, Cash Conversion Cycle (CCC), and Runway.
+   - Trailing 12-month Inflow vs Outflow cash flow performance chart.
+   - Dynamic currency converter (INR ₹ / USD $ / EUR €).
+2. **AI Time-Series Forecaster:**
    - Multi-step daily cash balance trajectory with 80% and 95% uncertainty bands.
-   - Red threshold indicator for minimum safe operating balance.
-   - Model benchmarking table comparing Ridge, Random Forest, Gradient Boosting, and Holt-Winters.
-3. **Working Capital & AR/AP Aging:**
+   - Red threshold indicator for minimum safe operating reserve.
+   - Model benchmarking leaderboard comparing Gradient Boosting, Random Forest, and Ridge Regression against a Holt-Winters baseline.
+3. **Working Capital & Aging:**
    - Donut chart of Accounts Receivable Aging buckets (Current, 1–30d, 31–60d, 61–90d, 90+d overdue).
    - Client credit tier risk segmentation (Tier A vs B vs C average delay days).
-   - High-priority open invoices table.
-4. **AI Liquidity Advisor:**
+   - Interactive Early Payment Discount Calculator: select open invoices to calculate accelerated cash vs 2% discount cost.
+4. **AI Prescriptive Advisor:**
    - Automated liquidity status alert (Healthy / Volatility Warning / Critical Deficit).
    - Prescriptive action cards with quantitative financial impact analysis (Dynamic discounting, DPO optimization, credit facility requirements, idle cash yield sweep).
+   - 1-click downloadable Executive Financial Audit Report (`.TXT`).
 5. **Interactive What-If Stress Simulator:**
-   - Sliders for Revenue Shock ($\pm 30\%$), Collection Delay ($+0 \text{ to } 30\text{ days}$), OpEx Cost Cutting, and Early Payment Discount Adoption.
+   - 1-click Quick Presets: *Aggressive Expansion*, *Client Payment Freeze*, *Macro Recession Shock*, and *Reset to Baseline*.
+   - Fine-grained sliders for Revenue Shock ($\pm 40\%$), Collection Delay ($+0 \text{ to } 30\text{ days}$), OpEx Cost Cutting, and Early Payment Discount Adoption.
    - Real-time comparison between Baseline AI Forecast vs Stress-Tested Scenario.
 
 ---
